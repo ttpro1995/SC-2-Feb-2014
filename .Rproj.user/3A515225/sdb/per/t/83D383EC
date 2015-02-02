@@ -1,0 +1,17 @@
+{
+    "contents" : "data<-read.csv(\"data.csv\")\nknow<-as.vector(data[[2]])\nknow.freq = table(know)\npie(know.freq)\n?pie\n",
+    "created" : 1422880200512.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "845922639",
+    "id" : "83D383EC",
+    "lastKnownWriteTime" : 1422880284,
+    "path" : "~/R-project/SC-2-Feb-2014/pie_aweness.R",
+    "project_path" : "pie_aweness.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "data<-read.csv(\"data.csv\")\nknow<-as.vector(data[[2]])\nhist(know,nclass=5)\nknow_hist<-hist(know,nclass=5)\nplot(know_hist,border=\"dark blue\",col=\"red\",main = \"E-commerce Awareness\",xlab=\"None     Low    Medium    High       Extreme\",ylab=\"Respondent\" )\n\n\n#TODO buy freq\nbuy<-as.vector(data[[3]])\n\nbuy_hist<-hist(buy,nclass=4)\nplot(know_hist,border=\"dark blue\",col=\"red\",main = \"Số giao dịch thực hiện mỗi tuần\",xlab=\"Giao Dich\",ylab=\"số người\" )\n",
+    "created" : 1422876973987.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3508702889",
+    "id" : "CE022CEB",
+    "lastKnownWriteTime" : 1422880284,
+    "path" : "~/R-project/SC-2-Feb-2014/draw_histogram.R",
+    "project_path" : "draw_histogram.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
