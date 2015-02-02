@@ -1,0 +1,17 @@
+{
+    "contents" : "data<-read.csv(\"data.csv\")\nknow<-as.vector(data[[2]])\nhist(know,nclass=5)\nknow_hist<-hist(know,nclass=5)\nplot(know_hist,border=\"dark blue\",col=\"red\",main = \"Mức độ hiểu biết về TMĐT\",xlab=\"Mức độ\")",
+    "created" : 1422876973987.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1447661296",
+    "id" : "CE022CEB",
+    "lastKnownWriteTime" : 1422877260,
+    "path" : "~/R-project/SC-2-Feb-2014/draw_histogram.R",
+    "project_path" : "draw_histogram.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

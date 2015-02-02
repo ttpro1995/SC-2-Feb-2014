@@ -1,0 +1,5 @@
+data<-read.csv("data.csv")
+know<-as.vector(data[[2]])
+hist(know,nclass=5)
+know_hist<-hist(know,nclass=5)
+plot(know_hist,border="dark blue",col="red",main = "Mức độ hiểu biết về TMĐT",xlab="Mức độ")
