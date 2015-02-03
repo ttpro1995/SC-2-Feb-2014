@@ -1,0 +1,16 @@
+{
+    "contents" : "data<-read.csv(\"data.csv\")\nknow<-as.vector(data[[2]])\nknow.freq = table(know)\nlegends<-c(\"None\",\"little\",\"low\",\"medium\",\"high\",\"well-awareness\")\n\nknow.percentlabels<- round(100*know.freq/sum(know.freq), 1)\nknow.percentlabels<- paste(know.percentlabels, \"%\", sep=\"\")\ncols <- c(\"grey90\",\"grey50\",\"black\",\"grey30\",\"white\",\"grey70\",\"grey50\")\npie(know.freq,labels=know.percentlabels,col=cols)\n#legend(\"topright\",legends , cex=0.8, fill=cols)\n#pie(know.freq)\n",
+    "created" : 1422933031833.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3227255444",
+    "id" : "CB3C71A9",
+    "lastKnownWriteTime" : 1422934035,
+    "path" : "~/R/SC-2-Feb-2014/pie_aweness.R",
+    "project_path" : "pie_aweness.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,5 +1,11 @@
 data<-read.csv("data.csv")
 know<-as.vector(data[[2]])
 know.freq = table(know)
-pie(know.freq)
-?pie
+legends<-c("None","little","low","medium","high","well-awareness")
+
+know.percentlabels<- round(100*know.freq/sum(know.freq), 1)
+know.percentlabels<- paste(know.percentlabels, "%", sep="")
+cols <- c("grey90","grey50","black","grey30","white","grey70","grey50")
+pie(know.freq,labels=know.percentlabels,col=cols)
+legend("topright",legends , cex=0.8, fill=cols)
+#pie(know.freq)
